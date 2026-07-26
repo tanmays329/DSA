@@ -1,3 +1,5 @@
+// hey this file will tell about the time and space complexity
+
 // time complexity - it is the time taken by the algorithm 
 // big O notation
 
