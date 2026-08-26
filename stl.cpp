@@ -279,57 +279,57 @@
 
 
 // algorithms
-#include <bits/stdc++.h>
-using namespace std;
+// #include <bits/stdc++.h>
+// using namespace std;
 
-int main() {
-    vector<int> v = {1, 5, 3, 2, 4};
+// int main() {
+//     vector<int> v = {1, 5, 3, 2, 4};
 
-    cout << "Vector before sorting: ";
-    for(int i:v) {
-        cout << i << " ";
-    }
+//     cout << "Vector before sorting: ";
+//     for(int i:v) {
+//         cout << i << " ";
+//     }
 
-    cout << endl;   
+//     cout << endl;   
 
-    sort(v.begin(), v.end());
+//     sort(v.begin(), v.end());
 
-    cout << "Vector after sorting: ";
-    for(int i:v) {
-        cout << i << " ";
-    }
-    cout << endl;
+//     cout << "Vector after sorting: ";
+//     for(int i:v) {
+//         cout << i << " ";
+//     }
+//     cout << endl;
 
-    cout << "binary_search for 3: " << binary_search(v.begin(), v.end(), 3) << endl;
+//     cout << "binary_search for 3: " << binary_search(v.begin(), v.end(), 3) << endl;
 
-    cout << "lower_bound for 3: " << lower_bound(v.begin(), v.end(), 3) - v.begin() << endl;
-    cout << "upper_bound for 3: " << upper_bound(v.begin(), v.end(), 3) - v.begin() << endl;
+//     cout << "lower_bound for 3: " << lower_bound(v.begin(), v.end(), 3) - v.begin() << endl;
+//     cout << "upper_bound for 3: " << upper_bound(v.begin(), v.end(), 3) - v.begin() << endl;
 
-    int a = 3;
-    int b = 5;  
+//     int a = 3;
+//     int b = 5;  
 
-    cout << "max of 3 and 5: " << max(a, b) << endl;
-    cout << "min of 3 and 5: " << min(a, b) << endl;
+//     cout << "max of 3 and 5: " << max(a, b) << endl;
+//     cout << "min of 3 and 5: " << min(a, b) << endl;
 
-    swap(a, b);
-    cout << "After swap, a: " << a << ", b: " << b << endl;
+//     swap(a, b);
+//     cout << "After swap, a: " << a << ", b: " << b << endl;
 
-    string str = "Tanmay";
-    reverse(str.begin(), str.end());
-    cout << "Reversed string: " << str << endl;
+//     string str = "Tanmay";
+//     reverse(str.begin(), str.end());
+//     cout << "Reversed string: " << str << endl;
 
-    rotate(v.begin(), v.begin()+1, v.end());
-    cout << "Vector after rotation: ";
-    for(int i:v) {
-        cout << i << " ";
-    }
-    cout << endl;
+//     rotate(v.begin(), v.begin()+1, v.end());
+//     cout << "Vector after rotation: ";
+//     for(int i:v) {
+//         cout << i << " ";
+//     }
+//     cout << endl;
 
-    sort(v.begin(), v.end());
-    cout << "Vector after sorting again: ";
-    for(int i:v) {
-        cout << i << " ";
-    }
-    cout << endl;
+//     sort(v.begin(), v.end());
+//     cout << "Vector after sorting again: ";
+//     for(int i:v) {
+//         cout << i << " ";
+//     }
+//     cout << endl;
 
-}
+// }
