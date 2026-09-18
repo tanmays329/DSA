@@ -32,10 +32,11 @@ char getMaxOccuringChar(string s) {
 
 
 
-int main() {
-    string s;
-    cin >> s;
+// int main() {
+//     string s;
+//     cin >> s;
 
 
-    cout << "Max occuring character is: " << getMaxOccuringChar(s) << endl;
-}
+//     cout << "Max occuring character is: " << getMaxOccuringChar(s) << endl;
+// }
+
